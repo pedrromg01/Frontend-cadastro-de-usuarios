@@ -1,12 +1,26 @@
-# React + Vite
+# Frontend - Cadastro de Usuários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Cadastro de Usuários GIF](https://github.com/pedrromg01/Frontend-cadastro-de-usuarios/blob/main/front.gif)
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é a interface de frontend para o sistema de cadastro de usuários. Desenvolvido com **React**, **CSS**, e **Axios**, o frontend se comunica com a API do backend para realizar operações de cadastro, exibição e exclusão de usuários. O usuário pode preencher um formulário com seu nome, idade e e-mail, e visualizar a lista de usuários cadastrados, com a opção de excluir qualquer um deles.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - Biblioteca JavaScript para construção da interface de usuário.
+- **CSS** - Estilos para a apresentação do frontend.
+- **Axios** - Cliente HTTP para realizar requisições à API do backend.
+- **React Hooks** - Para gerenciar o estado e os efeitos no aplicativo.
+
+## Como Rodar o Projeto
+
+### Pré-requisitos
+
+- **Node.js** instalado. Caso não tenha, você pode instalá-lo [aqui](https://nodejs.org/).
+
+### Passos para execução
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/frontend-cadastro-de-usuarios.git
